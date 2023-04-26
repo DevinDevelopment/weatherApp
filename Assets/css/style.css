@@ -10,3 +10,7 @@
     text-align: center;
     width: 100%;
 }
+.mainStats{
+  list-style: none;
+  padding: 0 !important;
+}
