@@ -1,15 +1,18 @@
+/* general styling */
 * {
     box-sizing: border-box;
     margin:0;
     padding:0;
   } 
 
+/* navbar styling */
 .navbar-brand
 {
     font-size: 25px !important;
     text-align: center;
     width: 100%;
 }
+/* sets styling for todays weather section */
 .mainStats{
   list-style: none;
   padding: 0 !important;
