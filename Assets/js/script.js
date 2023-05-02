@@ -62,7 +62,7 @@ var formSubmitHandler = function (event) {
 
 //this function is used to fetch api and do some following operations
 function getAPI(city) {
-    var requestUrl = 'http://api.openweathermap.org/data/2.5/forecast?q=' + city + '&units=imperial&appid=1e0d39e436290f026426eeaa2621c35a';
+    var requestUrl = ('http://api.openweathermap.org/data/2.5/forecast?q=' + city + '&units=imperial&appid=1e0d39e436290f026426eeaa2621c35a');
   
     fetch(requestUrl)
       .then(function (response) {
