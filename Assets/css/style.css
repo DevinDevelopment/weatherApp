@@ -17,3 +17,17 @@
   list-style: none;
   padding: 0 !important;
 }
+
+/* stying for main section */
+.subtitle{
+  display: inline-block;
+}
+
+.iconImg{
+  display: inline-block;
+}
+
+/* styling for weather windows */
+.weatherWindowSection{
+  visibility: hidden;
+}
